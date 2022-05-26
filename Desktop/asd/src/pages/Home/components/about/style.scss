@@ -1,0 +1,51 @@
+.about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.img{
+    height: 100vh;
+    width: 50%;
+    background-image: url(../../../../assets/images/9.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+}
+
+.topic{
+    height: 100vh;
+    width: 50%;
+    
+    h1{
+        font-size: 60px;
+        color: #291569;
+        padding: 20px 15px;
+    }
+
+    p{
+        color:#99A3B9;
+        font-size: 20px;
+        padding: 15px ;
+    }
+
+    .simple{
+        color: #291569;
+    }
+
+    .ask{
+        height: 250px;
+        width: 300px;
+        background-color: #291569;
+        margin-left: 50%;
+        margin-top: 30px;
+    }
+    ul{
+        font-size: 20px;
+        list-style-type:none;
+        color: white;
+        margin-left: 10%;
+        padding-top: 15%;
+    }
+}

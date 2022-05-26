@@ -1,0 +1,69 @@
+.strategic {
+    width: 100%;
+    background-color: #291569;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    .App_development,
+    .planning {
+        width: 50%;
+        background-color: transparent;
+    }
+
+    .block, .block_2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 80px 0px 0px;
+
+        img {
+            width: 280px;
+            object-fit: contain;
+        }
+
+        .str2_pic{
+            width: 440px;
+            object-fit: contain;
+        }
+
+        h4, p {
+            color: #ffffff;
+            padding: 20px 117px 20px;
+            line-height: 1.6;
+        }
+
+        h4{
+            font-size: 26px;
+            font-weight: 200;
+        }
+
+        p{
+            font-size: 20px;
+        }
+        .block2_h4{
+            font-size: 48px;
+            color: #fd853e;
+            margin: 0px 17px;
+        }
+        
+        .block2_p{
+            font-size: 20px;
+            padding: 20px 90px 20px;
+            line-height: 1.6;
+        }
+
+        .arrow{
+            width: 53px;
+            object-fit: cover;
+        }
+
+
+      
+    }
+
+}

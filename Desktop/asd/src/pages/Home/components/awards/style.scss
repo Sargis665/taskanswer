@@ -1,0 +1,66 @@
+.awards {
+    width: 100%;
+    background-color: #E5E5E5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 70px;
+
+    h2 {
+        color: #fd853d;
+        font-size: 50px;
+        text-align: center;
+        padding: 70px 0px 20px;
+    }
+
+    img {
+        width: 64px;
+    }
+
+
+    .awd_btn {
+        padding: 15px 30px;
+        color: #111111;
+        background-color: transparent;
+        border: 2px solid #fd853d;
+        font-weight: 700;
+        letter-spacing: 3px;
+        border-radius: 5px;
+        margin-top: 30px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #fd853d;
+        }
+
+    }
+
+    .cards_block {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+
+
+        .card {
+            width: 30%;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 -10px #FD853D inset;
+            background-color: #FEFEFE;
+
+            p {
+                font-size: 20px;
+                color: #111111;
+                line-height: 2.2;
+                letter-spacing: 1px;
+
+                b {
+                    color: red;
+                }
+            }
+        }
+    }
+}

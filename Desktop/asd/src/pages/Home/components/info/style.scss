@@ -1,0 +1,68 @@
+.info{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: #291569;
+
+    .developmen{
+        height: 100vh;
+        width: 50%;
+        position: relative;
+        display: flex;
+        .orange{
+            height: 10px;
+            width: 120px;
+            background-color: #FD853D;
+           position: absolute;
+           top: 15%;
+           left: 40%;
+        }
+    
+        h1{
+            font-size: 4rem;
+            color: #FD853D;
+            position:absolute;
+            top: 18%;
+            left: 35%;
+        }
+    
+        p{
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+            position: absolute;
+            top: 60%;
+            left: 10%;
+          
+    
+            button{
+                height: 50px;
+                width: 120px;
+                background-color: #fd873d00;
+                margin-left: 45px;
+                margin-right: 5%;
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                font-size: 20px;
+                border-color: #FD853D;
+              
+    
+                &:hover{
+                    background-color: #FD853D;
+                }
+            }
+        }
+    }
+}
+
+
+
+.imgd{
+    height: 100vh;
+    width: 50%;
+    background-image: url(../../../../assets/images/developmen.png);
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-position: 50% 50%;
+}

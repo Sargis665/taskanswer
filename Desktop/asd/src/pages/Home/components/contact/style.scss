@@ -1,0 +1,101 @@
+.c_container {
+    width: 100%;
+    background: rgb(253, 253, 253);
+    background: linear-gradient(0deg, rgba(253, 253, 253, 1) 50%, rgba(41, 21, 105, 1) 50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70px;
+
+    .join {
+        width: 40%;
+        padding: 50px 30px 0px;
+        background-color:#ffffff;
+        border-radius:  0px 0px 10px 10px ;
+        box-shadow: 0 4px 2px -2px gray;
+        margin-top: 70px;
+
+        h6 {
+            font-size: 18px;
+            color: #30274e;
+        }
+
+
+        h2 {
+            font-size: 36px;
+            color: #fd853d;
+            padding: 20px 0px 40px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #30274e;
+            line-height: 1.8;
+            padding: 15px 0px 17px;
+        }
+
+        a {
+            font-size: 20px;
+            text-decoration: underline;
+            color: #fd853d;
+        }
+
+        .social_icons {
+            img {
+                margin-left: 10px;
+                width: 27px;
+            }
+        }
+
+
+    }
+
+    .contact_us {
+        width: 50%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius:  0px 0px 10px 10px ;
+        box-shadow: 0 4px 2px -2px gray;
+        padding: 30px 50px 0px;
+        margin-top: 70px;
+
+        h2{
+            font-size: 50px;
+            color: #fd853d;
+            padding: 25px 0px 0px;
+        }
+
+        label{
+            font-size: 18px;
+            padding: 25px 0px 20px;
+
+            input, textarea{
+                padding: 12px 100px;
+                border-radius: 10px;  
+                border: none;         
+                background-color: #E5E5E5;    
+            }
+        }
+
+        .sub_btn {
+            font-size: 20px;
+            padding: 15px 30px;
+            color: #ffffff;
+            background-color: #fd853d;
+            border: none;
+            font-weight: 700;
+            letter-spacing: 3px;
+            border-radius: 5px;
+            margin-bottom: 70px;
+            cursor: pointer;
+    
+            &:hover {
+                background-color: #30274e;
+                border: none;
+            }
+    
+        }
+    }
+}
