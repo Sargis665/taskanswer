@@ -1,0 +1,218 @@
+.main{
+    width: 100%;
+}
+.bold{
+    height: 1px;
+    width: 85%;
+    background-color: #909090;
+    position: absolute;
+    top: 65%;
+}
+.button{
+    width: 91px;
+    height: 41px;
+    border-radius: 3px;
+    border: 1px solid #23C2A8;
+    background-color: #23C2A8;
+    color: white;
+    position: absolute;
+    left: 89%;
+    top: 62%;
+}
+.check{
+    color: #D8D8D8;
+    padding: 2%;
+}
+
+.number{
+    display: flex;
+    justify-content: space-around;
+
+    .chil{
+        height: 40px;
+        width: 40px;
+        background-color: #23C2A8;
+        color: #eeeded;
+        border-radius: 50%;
+        padding: 1%;
+       font-weight: 700;
+       font-size: 18px;
+        
+
+        }
+        .your{
+            width: 250px;
+            font-weight: 600;
+            margin-top: 9px;
+            margin-left: -40px;
+            color: rgb(1, 1, 1);
+        }
+
+
+        .chilr{
+        height: 40px;
+        width: 40px;
+        border: 1px solid #D8D8D8;
+        border-radius: 50%;
+        color: #D8D8D8;
+        padding: 1%;
+        margin: 1%;
+        position: relative;
+        bottom: 12px;
+        }
+
+        .ship,.pay{
+            position: absolute;
+            top: 30px;
+            font-family: Work Sans;
+            width: 250px;
+            font-weight: 500;
+            margin-top: 9px;
+            margin-left: -40px;
+            color: #909090;
+        }
+}
+
+.flyers{
+    width: 75%;
+    height: 253px;
+    background-color: #F9F9F9;
+    display: flex;
+    padding: 4%;
+    border-radius: 2px;
+    
+    .fly{
+        height:82px;
+        width: 83px;
+    }
+
+    .topi{
+        font-weight: 600;
+        font-size: 18px;
+        padding: 1%;
+
+        span{
+            color: #23C2A8;
+        }
+
+       
+    }
+    .qua{
+        position: relative;
+        top: 21%;
+        right: 13%;
+        color: #909090;
+
+        span{
+            color: black;
+            font-weight: 600;
+        }
+    }
+
+    .chl{
+        position: relative;
+        left: 25%;
+        padding: 8px;
+        color: #909090;
+        
+    }
+}
+.white{
+    height: 104px;
+    width: 734px;
+    background-color: white;
+    border: 1px solid black;
+    position:absolute;
+    bottom:-7%;
+    left: 20%;
+    padding-left: 1%;
+      
+    #bell{
+       background-color: coral;
+    }
+
+    .file{
+        width: 156px;
+        height: 26px;
+        padding: -1%;
+        background-color: white;
+        border: 1px solid #23C2A8;
+        color: #23C2A8;
+    }
+}
+.ch{
+    width: 354px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    padding: 2%;
+    display: inline-block;
+   row-gap: 35px 45px;
+    justify-content: center;
+
+    .mostt{
+        background-color:#81C719;
+        border-radius: 7px;
+        color: white;
+        position: relative;
+        bottom: 50%;
+    }
+    
+    .qua1{
+        color: #909090;
+        font-size: 12px;
+        display: inline-block;
+        position: absolute;
+        bottom: 60%;
+        
+
+        span{
+            color: black;
+            font-weight: 600;
+            display: inline-block;
+            
+            
+            }
+    }
+    .most{
+        background-color: red;
+        border-radius: 7px;
+        color: white;
+        position: relative;
+        bottom: 50%;
+
+    }
+
+    .mi{
+        text-decoration: line-through;
+        color: red;
+        position: relative;
+        left: 20%;
+        top: -45%;
+       
+    }
+    .mii{
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+        position: relative;
+        left: 58%;
+        top: -27px;
+    }
+
+    .refresh{
+        width: 83px;
+        height: 23px;
+        border-radius: 3px;
+        background-color: white;
+        color: #23C2A8;
+        font-size: 11px;
+        border: 1px solid #23C2A8;
+        position: relative;
+        left: 75%;
+        top: -55px;
+    }
+}
+
+

@@ -1,0 +1,154 @@
+.header{
+    
+    width: 100%;
+    height: 160px;
+
+    .topic{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 15px;
+        color: #9C9C9C;
+    span{
+        padding: 1%;
+    }
+    
+        .newss{
+            position: absolute;
+            left: 55%;
+            top: 1%;
+            color: black;
+        }
+        
+    .new{
+        position: relative;
+        left: 10%;
+        background-color:#91E0D3;
+        color: #91E0D3;
+    }
+        .marketing{
+            position: absolute;
+            left: 69%; 
+            top: 1.3%;
+            color: #91E0D3;
+        }
+        .blank{
+            position: absolute;
+            left: 80%;
+            top: 1.3%;
+            color: black;
+        }
+        
+    
+}
+}
+
+.item{
+    height: 150px;
+    width: 100%;
+    padding: 1%;
+    position: relative;
+    .logo{
+        font-size: 2em;
+        position:absolute;
+        left: 6%;
+        top: 10%;
+    }
+    .search{
+        width: 725px;
+        height: 39px;
+        position: relative;
+        left: 11%;
+        bottom:10%;
+    }
+
+    .searchicon{
+        width: 42px;
+        height: 39px;
+        position: relative;
+        left: 7.2%;
+        top: 1.2%;
+        border: 2px solid rgba(207, 207, 207, 1);
+    }
+    .man{
+       position: relative;
+       left: 8%;
+       top:1.5%;
+
+       
+     }
+     .red{
+        position: relative;
+        left: 7.2%;
+        bottom: 28px;
+     }
+     .cornel{
+        position: relative;
+        left: 8%;
+        bottom:22%;
+        font-size: 12px;
+        font-weight: 600;
+
+        
+     }
+     .s356{
+        color: #FD8516;
+        position: relative;
+        left: 1.5%;
+        bottom:10%;
+        font-size: 12px;
+        font-weight: 500;
+
+      
+    }
+    .coins{
+        position: absolute;
+        left: 80%;
+        bottom:69.5%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .shop{
+        height: 35px;
+        width: 35px;
+        position: relative;
+        left: 9%;
+    }
+   .cart{
+    font-weight: 600;
+    position: relative;
+    left: 9%;
+    bottom: 11%;
+    font-size: 0.8em;
+   }
+
+   .orange{
+    position: relative;
+    left: 10%;
+}
+.p{
+    position: relative;
+    left: 8.3%;
+    bottom: 5%;
+    color: #FD8516;
+}
+}
+.nav{
+    border: 1px solid rgba(207, 207, 207, 1) ;
+    padding: 1%;
+
+}
+
+.child{
+    font-size: 14px;
+    padding: 0.8%;
+    
+    
+}
+.img{
+    background-color: #21B8A0;
+    padding: 1%;
+
+   
+}
